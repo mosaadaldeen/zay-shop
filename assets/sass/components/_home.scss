@@ -1,0 +1,30 @@
+.home {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(235, 232, 232);
+  .info-home {
+    padding: 11px;
+    white-space: break-spaces;
+  }
+  img {
+    max-width: 50%;
+    width: 100%;
+  }
+  @media (max-width: 700px) {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+      margin: auto auto;
+      border-bottom-left-radius: 90px;
+      border-bottom-right-radius: 90px;
+    }
+  }
+}

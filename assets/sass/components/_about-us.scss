@@ -1,0 +1,89 @@
+.about-us {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #59ab6e;
+  color: white;
+  width: 100%;
+  margin-right: 0;
+  padding-right: 0;
+  .about {
+    margin: 33px 22px;
+    h1 {
+      margin: 20px 0;
+    }
+    p {
+      margin: 20px 0;
+      font-size: 18px;
+      font-weight: 300;
+    }
+  }
+  img {
+    max-width: 40%;
+    width: 100%;
+  }
+  @media (max-width: 767px) {
+    padding: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .about {
+      margin: 0 auto;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.services {
+  text-align: center;
+  margin: 50px auto;
+  h1 {
+    font-size: 55px;
+    font-weight: 200;
+  }
+  p {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 15px 20px;
+  }
+  section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .service {
+      &:hover {
+        border-top-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+        transition: 0.8s ease;
+      }
+      width: 20%;
+      display: flex;
+      padding: 25px;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      i {
+        color: #59ab6e;
+        font-size: 3em;
+      }
+    }
+    @media (max-width: 868px) {
+      .service {
+        width: 40%;
+        margin: 30px;
+      }
+    }
+    @media (max-width: 615px) {
+      .service {
+        width: 80%;
+        margin: 30px auto;
+        font-size: 1.6em;
+        p {
+          font-size: 1.6em;
+        }
+      }
+    }
+  }
+}

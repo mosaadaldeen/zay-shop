@@ -1,0 +1,25 @@
+.info {
+  min-height: 40px;
+  background: #212934;
+  color: white;
+  font-weight: lighter;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: smaller;
+  .normal {
+    display: inherit;
+  }
+  .icons {
+    margin-right: 22px;
+  }
+  i {
+    cursor: pointer;
+    margin-left: 5px;
+    color: white;
+    padding: 5px;
+    &:hover {
+      color: #2e3aaa;
+    }
+  }
+}

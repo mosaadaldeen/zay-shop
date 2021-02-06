@@ -1,0 +1,49 @@
+.contact {
+  text-align: center;
+  margin: 50px auto;
+  h1,
+  p {
+    margin: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  iframe {
+    width: 100%;
+  }
+}
+
+.container {
+  font-family: "Arial";
+  max-width: 80%;
+  margin: 0px auto;
+  padding: 16px;
+  background-color: #ffffff;
+  input {
+    width: 94%;
+    padding: 8px;
+    margin: 8px 0px;
+    border: 1px solid #dddddd;
+  }
+  textarea {
+    width: 94%;
+    padding: 8px;
+    margin: 8px 0px;
+    border: 1px solid #dddddd;
+  }
+  input[type="submit"] {
+    width: 20%;
+    background-color: #68bb7d;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.4em;
+    cursor: pointer;
+    &:hover {
+      border-top-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      transition: 0.6s ease;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.featured-products {
+  background-color: #e9eef5 !important;
+  text-align: center;
+  padding-top: 80px;
+  margin-top: 100px;
+  padding-bottom: 40px;
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px !important;
+    font-weight: 200 !important;
+  }
+  p {
+    font-size: larger;
+    margin: 29px auto;
+    font-weight: lighter;
+  }
+  .products {
+    display: flex;
+    justify-content: space-between;
+    .product {
+      flex: 1 1 auto;
+      background-color: white;
+      margin: 5px;
+      width: 30%;
+      -webkit-box-shadow: 4px 5px 14px 0px rgba(69, 69, 76, 0.76);
+      -moz-box-shadow: 4px 5px 14px 0px rgba(69, 69, 76, 0.76);
+      box-shadow: 4px 5px 14px 0px rgba(69, 69, 76, 0.76);
+      img {
+        width: 100%;
+      }
+      .stars-price {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 21px;
+        i {
+          color: yellow;
+        }
+      }
+      a {
+        text-decoration: unset;
+        color: rgb(101, 101, 99);
+        font-size: 25px;
+      }
+      p {
+        text-align: left;
+        margin: 11px 17px;
+        font-size: 1.1em;
+        white-space: inherit;
+      }
+    }
+    @media (max-width: 700px) {
+      flex-direction: column;
+      .product {
+        width: 80%;
+        margin: 11px auto;
+      }
+    }
+  }
+}
