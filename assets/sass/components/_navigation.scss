@@ -59,10 +59,10 @@ a.logo {
   line-height: 80px;
   padding: 0 20px;
   font-weight: bold;
+  text-decoration: none;
   @media (max-width: 952px) {
     font-size: 30px;
     padding-left: 30px;
-    text-decoration: none;
   }
 }
 
